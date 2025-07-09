@@ -7,51 +7,43 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1 id="logo">RV-Form</h1>
-    <nav>
-      <ul>
-        <li><a href="#start" data-key="start">Start</a></li>
-        <li><a href="#about" data-key="about">Om oss</a></li>
-        <li><a href="#products" data-key="products">Produkter</a></li>
-        <li><a href="#contact" data-key="contact">Kontakt</a></li>
-        <li>
-          <select id="language-select">
-            <option value="sv">Svenska</option>
-            <option value="en">English</option>
-          </select>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Hero Sektion -->
+  <section class="hero">
+    <h1>RV-Form</h1>
+    <p>Välkommen</p>
+  </section>
 
-  <main>
-    <section id="start">
-      <h2 data-key="welcome">Välkommen till RV-Form</h2>
-      <p data-key="intro">Vi erbjuder högkvalitativa plastprodukter till bra priser.</p>
-    </section>
+  <!-- Produkter -->
+  <section class="products" id="products">
+    <h2>Våra Produkter</h2>
+    <div class="product-grid">
+      <!-- Exempelprodukter -->
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produkt 1" />
+        <p>Produktnamn 1</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produkt 2" />
+        <p>Produktnamn 2</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Produkt 3" />
+        <p>Produktnamn 3</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="about">
-      <h2 data-key="about">Om oss</h2>
-      <p data-key="aboutText">RV-Form grundades av två bröder med passion för kvalitet och noggrannhet. Vi fokuserar på hållbara plastlösningar som möter våra kunders behov.</p>
-    </section>
-
-    <section id="products">
-      <h2 data-key="products">Produkter</h2>
-      <p data-key="productsText">Här kommer våra produkter att listas inom kort.</p>
-    </section>
-
-    <section id="contact">
-      <h2 data-key="contact">Kontakt</h2>
+  <!-- Om oss & Kontakt -->
+  <footer class="footer">
+    <div class="footer-column">
+      <h3>Om oss</h3>
+      <p>RV-Form grundades av två bröder med passion för hållbara plastlösningar och kvalitet.</p>
+    </div>
+    <div class="footer-column">
+      <h3>Kontakt</h3>
       <p>Email: victorek2010@gmail.com</p>
       <p>Email: rasmusek08@gmail.com</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 RV-Form</p>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
