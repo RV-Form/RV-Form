@@ -7,43 +7,37 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Hero Sektion -->
+  <!-- Hero -->
   <section class="hero">
-    <h1>RV-Form</h1>
-    <p>Välkommen</p>
+    <div class="hero-content">
+      <img src="logo.png" alt="RV-Form Logotyp" class="logo" />
+      <p class="tagline" data-key="tagline">Designad för en grön framtid.</p>
+      <p class="welcome" data-key="welcome">Välkommen</p>
+      <button id="lang-toggle">English</button>
+    </div>
   </section>
 
   <!-- Produkter -->
   <section class="products" id="products">
-    <h2>Våra Produkter</h2>
+    <h2 data-key="productsTitle">Våra Produkter</h2>
     <div class="product-grid">
-      <!-- Exempelprodukter -->
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Produkt 1" />
-        <p>Produktnamn 1</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Produkt 2" />
-        <p>Produktnamn 2</p>
-      </div>
-      <div class="product-card">
-        <img src="https://via.placeholder.com/200" alt="Produkt 3" />
-        <p>Produktnamn 3</p>
-      </div>
+      <!-- Produktkort kommer här -->
     </div>
   </section>
 
   <!-- Om oss & Kontakt -->
   <footer class="footer">
     <div class="footer-column">
-      <h3>Om oss</h3>
-      <p>RV-Form grundades av två bröder med passion för hållbara plastlösningar och kvalitet.</p>
+      <h3 data-key="about">Om oss</h3>
+      <p data-key="aboutText">RV-Form, ett innovativt plastföretag, använder sig av miljövänlig PLA-plast i sin 3D-printing, vilket ger hållbara, högkvalitativa produkter med precision och minimal miljöpåverkan.</p>
     </div>
     <div class="footer-column">
-      <h3>Kontakt</h3>
+      <h3 data-key="contact">Kontakt</h3>
       <p>Email: victorek2010@gmail.com</p>
       <p>Email: rasmusek08@gmail.com</p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
